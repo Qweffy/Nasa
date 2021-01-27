@@ -8,6 +8,9 @@ export default function NavBar() {
         <Link className="link" to="/">
           Home
         </Link>
+        <Link className="link" to="marsweather">
+          Mars
+        </Link>
       </ul>
     </div>
   );
