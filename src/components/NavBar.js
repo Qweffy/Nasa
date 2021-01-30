@@ -11,6 +11,9 @@ export default function NavBar() {
           <Link className="link" to="marsweather">
             <img className={NavCss.mars} src={mars} alt="mars gif"></img>
           </Link>
+          <Link className="link" to="nasaphoto">
+            Picture of the day
+          </Link>
         </ul>
       </div>
     </div>

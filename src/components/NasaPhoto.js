@@ -2,7 +2,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 
-const apiKey = process.env.REACT_APP_NASA_KEY;
+// const apiKey = process.env.REACT_APP_NASA_KEY;
+const apiKey = 'oehYU5iXzd3RaWUhgGCSI1M79bqvPabNVQf51A5j';
 
 export default function NasaPhoto() {
   const [photoData, setPhotoData] = useState(null);
@@ -23,10 +24,10 @@ export default function NasaPhoto() {
       <NavBar />
       <div className="nasaphoto">
         {photoData.media_type === "image" ? (
-          <img src={photoData.url} className="photo" />
+          <img src={photoData.url} className="photo" alt='nice'/>
         ) : (
           <iframe
-            title=""
+            title="Picture of the day"
             src={photoData.url}
             frameBorder="0"
             gesture="media"

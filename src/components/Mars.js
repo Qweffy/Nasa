@@ -1,7 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import MARSCss from "./Mars.module.css";
-const apiKey = process.env.REACT_APP_NASA_KEY;
+// const apiKey = process.env.REACT_APP_NASA_KEY;
+
+const apiKey = 'oehYU5iXzd3RaWUhgGCSI1M79bqvPabNVQf51A5j';
 
 export default function Mars() {
   const [marsWeather, setMarsWeather] = useState(null);
