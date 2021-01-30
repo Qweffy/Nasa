@@ -1,0 +1,1 @@
+export const apiKey = 'here your apiKey' // PROCESS.ENV.REACT_APP_NASA_KEY
