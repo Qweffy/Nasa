@@ -8,7 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <Route component={NasaPhoto} path="/" exact />
+        <Route component={Home} path="/" exact />
+        <Route component={NasaPhoto} path="/nasaphoto" exact />
         <Route component={Mars} path="/marsweather" exact />
       </div>
     </BrowserRouter>

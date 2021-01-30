@@ -19,8 +19,9 @@ export default function NasaPhoto() {
   if (!photoData) return <div />;
   return (
     <div>
+      {console.log(photoData)}
       <NavBar />
-      <div className="nasa-photo">
+      <div className="nasaphoto">
         {photoData.media_type === "image" ? (
           <img src={photoData.url} className="photo" />
         ) : (

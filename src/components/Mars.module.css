@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
@@ -54,7 +54,7 @@ a {
 
 a:hover {
   color: var(--clr-accent-dark);
-}
+} */
 
 .maintitle {
   font-size: var(--fs-h1);

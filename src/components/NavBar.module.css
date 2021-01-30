@@ -1,0 +1,8 @@
+.linkmars {
+  display: flex;
+  justify-content: flex-end;
+}
+.mars {
+  height: 7em;
+  width: auto;
+}
