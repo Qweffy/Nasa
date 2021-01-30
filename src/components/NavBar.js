@@ -14,6 +14,9 @@ export default function NavBar() {
           <Link className="link" to="nasaphoto">
             Picture of the day
           </Link>
+          <Link className="link" to="asteroid">
+            Asteroids
+          </Link>
         </ul>
       </div>
     </div>
