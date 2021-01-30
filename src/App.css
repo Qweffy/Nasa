@@ -5,6 +5,7 @@ body {
   color: #d14f4f;
   line-height: 1.7;
   font-size: 19px;
+  background-color: rgb(37, 37, 37);
   background-image: url("./img/earth.png");
   height: 100%;
   background-position: center;
