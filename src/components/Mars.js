@@ -1,9 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import MARSCss from "./Mars.module.css";
-import { apiKey } from "./../config";
+import { apiKey } from "../../config";
 
 export default function Mars() {
+
   const [marsWeather, setMarsWeather] = useState(null);
 
   useEffect(() => {
@@ -14,7 +15,6 @@ export default function Mars() {
       );
       const data = await res.json();
       setMarsWeather(data);
-      console.log(marsWeather);
     }
   }, []);
 
