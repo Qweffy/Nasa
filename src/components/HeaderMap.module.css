@@ -1,0 +1,9 @@
+.header{
+    background-color: #d14f4f;
+    color: #efefef;
+    width:100%;
+    text-align: center;
+}
+.header h1{
+    margin:0;
+}
