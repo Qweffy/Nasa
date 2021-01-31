@@ -8,6 +8,9 @@ export default function NavBar() {
     <div>
       <div className={NavCss.linkmars}>
         <ul>
+          <Link className="link" to="asteroids">
+            Asteroides
+          </Link>
           <Link className="link" to="marsweather">
             <img className={NavCss.mars} src={mars} alt="mars gif"></img>
           </Link>
