@@ -1,0 +1,9 @@
+.container{
+  color: white;
+  border: white solid 0.1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.493);
+  max-width: 50rem;
+}
